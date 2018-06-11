@@ -7,10 +7,10 @@ import com.qianfu.simplerpc.serialization.serialzer.Serializer;
  * @date 2018/6/1
  */
 public class SerialzerFactory {
-    public Serializer getInstance(Class<? extends Serializer> implclass) {
+    public Serializer getInstance(Class<? extends Serializer> implementClass) {
         Serializer serializer = null;
         try {
-            serializer = implclass.newInstance();
+            serializer = implementClass.newInstance();
         } catch (InstantiationException | IllegalAccessException e) {
             e.printStackTrace();
         }
