@@ -6,8 +6,8 @@ import com.qianfu.simplerpc.serialization.serialzer.Serializer;
  * @author Fu
  * @date 2018/6/1
  */
-public class SerialzerFactory {
-    public Serializer getInstance(Class<? extends Serializer> implementClass) {
+public class SerializerFactory {
+    public static Serializer getInstance(Class<? extends Serializer> implementClass) {
         Serializer serializer = null;
         try {
             serializer = implementClass.newInstance();
