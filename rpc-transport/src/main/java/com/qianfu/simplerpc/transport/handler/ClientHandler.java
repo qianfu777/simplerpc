@@ -1,9 +1,9 @@
-package com.qianfu.simplerpc.handler;
+package com.qianfu.simplerpc.transport.handler;
 
 import com.qianfu.simplerpc.serialization.factory.SerializerFactory;
 import com.qianfu.simplerpc.serialization.serialzer.ProtostuffSerializer;
 import com.qianfu.simplerpc.serialization.serialzer.Serializer;
-import com.qianfu.simplerpc.sync.Sync;
+import com.qianfu.simplerpc.transport.sync.Sync;
 import com.qianfu.simplerpc.transport.model.Response;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

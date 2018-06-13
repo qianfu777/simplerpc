@@ -1,4 +1,4 @@
-package com.qianfu.simplerpc.spring;
+package com.qianfu.simplerpc.transport.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

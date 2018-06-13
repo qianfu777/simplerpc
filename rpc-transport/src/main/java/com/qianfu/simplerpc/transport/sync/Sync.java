@@ -1,4 +1,4 @@
-package com.qianfu.simplerpc.sync;
+package com.qianfu.simplerpc.transport.sync;
 
 import lombok.extern.slf4j.Slf4j;
 

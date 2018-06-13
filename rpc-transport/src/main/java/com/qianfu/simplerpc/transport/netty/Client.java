@@ -1,10 +1,10 @@
 package com.qianfu.simplerpc.transport.netty;
 
-import com.qianfu.simplerpc.handler.ClientHandler;
+import com.qianfu.simplerpc.transport.handler.ClientHandler;
 import com.qianfu.simplerpc.serialization.factory.SerializerFactory;
 import com.qianfu.simplerpc.serialization.serialzer.ProtostuffSerializer;
 import com.qianfu.simplerpc.serialization.serialzer.Serializer;
-import com.qianfu.simplerpc.sync.Sync;
+import com.qianfu.simplerpc.transport.sync.Sync;
 import com.qianfu.simplerpc.transport.model.Request;
 import com.qianfu.simplerpc.transport.model.Response;
 import io.netty.bootstrap.Bootstrap;

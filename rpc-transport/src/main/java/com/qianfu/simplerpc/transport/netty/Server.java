@@ -1,6 +1,6 @@
 package com.qianfu.simplerpc.transport.netty;
 
-import com.qianfu.simplerpc.handler.ServerHandler;
+import com.qianfu.simplerpc.transport.handler.ServerHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
