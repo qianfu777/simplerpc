@@ -7,7 +7,7 @@ import com.qianfu.simplerpc.registry.manager.RegistryManager;
  * @date 2018/6/11
  */
 public class RegistryFactory {
-    public RegistryManager getInstance(Class<? extends RegistryManager> clazz) {
+    public static RegistryManager getInstance(Class<? extends RegistryManager> clazz) {
         RegistryManager manager = null;
         try {
             manager = clazz.newInstance();

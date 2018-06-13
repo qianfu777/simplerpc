@@ -44,7 +44,7 @@ public class Client {
         }
     }
     
-    public Response process(Request request) throws InterruptedException {
+    public Response request(Request request) throws InterruptedException {
         EventLoopGroup eventLoopGroup = new NioEventLoopGroup();
         Bootstrap bootstrap = new Bootstrap();
         try {
